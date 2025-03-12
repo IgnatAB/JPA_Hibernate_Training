@@ -2,7 +2,7 @@ package exmpl_db.relationships.one_to_one;
 
 
 import jakarta.persistence.*;
-
+// класс для создания паспортов студентов в таблицу passports
 @Entity
 @Table(name="passports")
 public class Passport {

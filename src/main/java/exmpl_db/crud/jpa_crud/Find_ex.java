@@ -2,7 +2,7 @@ package exmpl_db.crud.jpa_crud;
 
 import exmpl_db.crud.Entity.Student;
 import jakarta.persistence.*;
-
+// поиск студента
 public class Find_ex {
     public static void main(String[] args) {
         EntityManagerFactory factory = Persistence.createEntityManagerFactory("jpa-training");

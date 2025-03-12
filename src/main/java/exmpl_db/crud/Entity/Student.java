@@ -3,9 +3,9 @@ package exmpl_db.crud.Entity;
 import jakarta.persistence.*;
 
 import java.time.LocalDateTime;
-
-//@Entity
-//@Table (name ="test_students")
+// класс для создания объектов и добавления их в таблицу
+@Entity
+@Table (name ="test_students")
 public class Student {
     @Id
     @GeneratedValue(strategy =GenerationType.IDENTITY)
