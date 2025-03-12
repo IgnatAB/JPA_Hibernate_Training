@@ -4,7 +4,7 @@ import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.EntityTransaction;
 import jakarta.persistence.Persistence;
-
+// тут выполняем CRUD команды для двухсторонней связи OneToONE
 public class OneToOneBi {
     public static void main(String[] args) {
 

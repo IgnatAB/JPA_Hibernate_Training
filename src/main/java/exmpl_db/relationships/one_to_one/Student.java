@@ -3,7 +3,7 @@ package exmpl_db.relationships.one_to_one;
 import jakarta.persistence.*;
 
 import java.time.LocalDateTime;
-
+// класс для создания студентов в таблицу студенты
 @Entity
 @Table (name ="students")
 public class Student {
